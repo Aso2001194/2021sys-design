@@ -1,9 +1,10 @@
 ```uml
 @startuml
-Alice -> Bob: Authentication Request
-Bob --> Alice: Authentication Response
-
-Alice -> Bob: Another authentication Request
-Alice <-- Bob: another authentication Response
+[*] --> トップページ
+トップページ -> 会員登録
+トップページ -left-> ログイン
+トップページ --> カート
+カート -> お届け先入力内容確認
+お届け先入力内容確認 -> 購入完了
 @enduml
 ```
