@@ -1,4 +1,6 @@
-
+#DB定義書
+##ER図
+[ER図](https://github.com/Aso2001194/2021sys-design/blob/main/erzu.md "ER図はこちら")
 
 ### 購入テーブル(d_purchase)
 |和名|属性名|型|PK|NN|FK|
